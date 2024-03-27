@@ -26,9 +26,5 @@ f.write(str(shapka)+'\n')
 for x in a:
     f.write(','.join(x)+'\n')
 f.close()
-# srr=0
-# for i in range(len(a)):
-#     if a[i][-1]!='None':
-#         sr.append(int(a[i][-1]))
-# print(sr)
+
 
