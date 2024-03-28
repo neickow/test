@@ -17,8 +17,8 @@ def hsh(n):
         hs += hashfio[i] * (p ** i % m)
     return hs
 
-
+f.write(shapka)
 for x in a:
     fio = x[1]
     hs = hsh(x)
-    f.write(f'{fio},{hs}\n')
+    f.write(str(hs)+','.join(x)+'\n')
